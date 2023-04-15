@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  @font-face {
+    font-family: 'GT Walsheim';
+    font-weight: 300;
+    src: url('~/assets/fonts/GT-Walsheim-Light-webfont.woff2') format('woff2'),
+      url('~/assets/fonts/GT-Walsheim-Light-webfont.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'GT Walsheim';
+    font-weight: 400;
+    src: url('~/assets/fonts/GT-Walsheim-Regular-webfont.woff2') format('woff2'),
+      url('~/assets/fonts/GT-Walsheim-Regular-webfont.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'GT Walsheim';
+    font-weight: 500;
+    src: url('~/assets/fonts/GT-Walsheim-Medium-webfont.woff2') format('woff2'),
+      url('~/assets/fonts/GT-Walsheim-Medium-webfont.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'GT Walsheim';
+    font-weight: 700;
+    src: url('~/assets/fonts/GT-Walsheim-Bold-webfont.woff2') format('woff2'),
+      url('~/assets/fonts/GT-Walsheim-Bold-webfont.woff') format('woff');
+  }
+
+  /* Fonts */
+  @font-face {
+    font-family: 'Gotham';
+    font-weight: 100;
+    src: url('~/assets/fonts/Gotham-Thin.otf'),
+  }
+  @font-face {
+    font-family: 'Gotham';
+    font-weight: 300;
+    src: url('~/assets/fonts/Gotham-Light.otf'),
+  }
+  @font-face {
+    font-family: 'Gotham';
+    font-weight: 500;
+    src: url('~/assets/fonts/Gotham-Medium.otf'),
+  }
+  @font-face {
+    font-family: 'Gotham';
+    font-weight: 700;
+    src: url('~/assets/fonts/Gotham-Bold.otf'),
+  }
+
+  @font-face {
+    font-family: 'Accent Graphic';
+    font-weight: 300;
+    src: url('~/assets/fonts/AccenGraLig.otf'),
+  }
+  @font-face {
+    font-family: 'Accent Graphic';
+    font-weight: 500;
+    src: url('~/assets/fonts/AccenGraMed.otf'),
+  }
+  @font-face {
+    font-family: 'Accent Graphic';
+    font-weight: 700;
+    src: url('~/assets/fonts/AccenGraBol.otf'),
+  }
+
+  @font-face {
+    font-family: 'Accent Graphic';
+    font-weight: 700;
+    src: url('~/assets/fonts/AccenGraBol.otf'),
+  }
+
+  body {
+    font-family: 'GT Walsheim';
+    @apply bg-beige text-marcie;
+  }
+
+  p {
+    @apply mb-2;
+  }
+
+  address {
+    @apply not-italic block;
+  }
+
+  .fade-enter-active, .fade-leave-active {
+    @apply transition-all ease-in duration-100;
+  }
+
+  /* .fade-enter-to, .fade-leave {
+    @apply opacity-100;
+  } */
+
+  .fade-enter-from, .fade-leave-to {
+    @apply opacity-0;
+  }
+
+}
