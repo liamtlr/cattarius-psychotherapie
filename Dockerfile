@@ -12,6 +12,6 @@ COPY package.json yarn.lock ./
 RUN yarn install && \
     yarn cache clean
 
-CMD ["npm", "run" ,"dev"]
+CMD ["npm", "run" , "dev"]
 
 # ENTRYPOINT /bin/bash

@@ -21,20 +21,9 @@ module.exports = {
       }
     },
     "fontFamily": {
-      "sans": [
+      "accent": [
         "Accent Graphic",
-        "Gotham"
-      ],
-      "body": [
-        "Accent Graphic",
-        "Gotham"
-      ],
-      "mono": [
-        "Accent Graphic",
-        "Gotham"
-      ],
-      "wals": [
-        "GT Walsheim"
+        "Serif"
       ]
     },
     "accentColor": {

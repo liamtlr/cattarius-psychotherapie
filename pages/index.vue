@@ -7,7 +7,17 @@
         alt="Logo for Marcel Cattarius - Praxis für Psychotherapie"
       >
     </div>
-
   </div>
 </template>
 
+<script setup>
+  useHead({
+    title: 'Cattarius Psychotherapie',
+    meta: [
+      {
+        name: 'description',
+        content: 'Experienced psychotherpaist based in Mainz',
+      },
+    ],
+  })
+</script>

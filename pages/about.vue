@@ -7,3 +7,15 @@
     </p>
   </content-wrapper>
 </template>
+
+<script setup>
+  useHead({
+    title: 'About',
+    meta: [
+      {
+        name: 'description',
+        content: 'Hallo ich bin Marcel - Psychotherapist aus Landau.',
+      },
+    ],
+  })
+</script>

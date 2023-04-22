@@ -5,76 +5,78 @@
 @layer base {
 
   @font-face {
-    font-family: 'GT Walsheim';
+    font-family: "Accent Graphic";
     font-weight: 300;
-    src: url('~/assets/fonts/GT-Walsheim-Light-webfont.woff2') format('woff2'),
-      url('~/assets/fonts/GT-Walsheim-Light-webfont.woff') format('woff');
-  }
-  @font-face {
-    font-family: 'GT Walsheim';
-    font-weight: 400;
-    src: url('~/assets/fonts/GT-Walsheim-Regular-webfont.woff2') format('woff2'),
-      url('~/assets/fonts/GT-Walsheim-Regular-webfont.woff') format('woff');
-  }
-  @font-face {
-    font-family: 'GT Walsheim';
-    font-weight: 500;
-    src: url('~/assets/fonts/GT-Walsheim-Medium-webfont.woff2') format('woff2'),
-      url('~/assets/fonts/GT-Walsheim-Medium-webfont.woff') format('woff');
-  }
-  @font-face {
-    font-family: 'GT Walsheim';
-    font-weight: 700;
-    src: url('~/assets/fonts/GT-Walsheim-Bold-webfont.woff2') format('woff2'),
-      url('~/assets/fonts/GT-Walsheim-Bold-webfont.woff') format('woff');
-  }
-
-  /* Fonts */
-  @font-face {
-    font-family: 'Gotham';
-    font-weight: 100;
-    src: url('~/assets/fonts/Gotham-Thin.otf'),
-  }
-  @font-face {
-    font-family: 'Gotham';
-    font-weight: 300;
-    src: url('~/assets/fonts/Gotham-Light.otf'),
-  }
-  @font-face {
-    font-family: 'Gotham';
-    font-weight: 500;
-    src: url('~/assets/fonts/Gotham-Medium.otf'),
-  }
-  @font-face {
-    font-family: 'Gotham';
-    font-weight: 700;
-    src: url('~/assets/fonts/Gotham-Bold.otf'),
+    src: url("//db.onlinewebfonts.com/t/c90524dd000fae4fafbd8f791869cfe1.eot");
+    src: url("//db.onlinewebfonts.com/t/c90524dd000fae4fafbd8f791869cfe1.eot?#iefix")
+      format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c90524dd000fae4fafbd8f791869cfe1.woff2")
+      format("woff2"), url("//db.onlinewebfonts.com/t/c90524dd000fae4fafbd8f791869cfe1.woff")
+      format("woff"), url("//db.onlinewebfonts.com/t/c90524dd000fae4fafbd8f791869cfe1.ttf")
+      format("truetype"), url("//db.onlinewebfonts.com/t/c90524dd000fae4fafbd8f791869cfe1.svg#Accent Graphic")
+      format("svg");
   }
 
   @font-face {
-    font-family: 'Accent Graphic';
-    font-weight: 300;
-    src: url('~/assets/fonts/AccenGraLig.otf'),
-  }
-  @font-face {
-    font-family: 'Accent Graphic';
+    font-family: "Accent Graphic";
     font-weight: 500;
-    src: url('~/assets/fonts/AccenGraMed.otf'),
-  }
-  @font-face {
-    font-family: 'Accent Graphic';
-    font-weight: 700;
-    src: url('~/assets/fonts/AccenGraBol.otf'),
+    src: url("//db.onlinewebfonts.com/t/89a943d87a9f3ee2342f75b39d3de405.eot");
+    src: url("//db.onlinewebfonts.com/t/89a943d87a9f3ee2342f75b39d3de405.eot?#iefix")
+      format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/89a943d87a9f3ee2342f75b39d3de405.woff2")
+      format("woff2"), url("//db.onlinewebfonts.com/t/89a943d87a9f3ee2342f75b39d3de405.woff")
+      format("woff"),
+      url("//db.onlinewebfonts.com/t/89a943d87a9f3ee2342f75b39d3de405.ttf")
+      format("truetype"),
+      url("//db.onlinewebfonts.com/t/89a943d87a9f3ee2342f75b39d3de405.svg#Accent Graphic")
+      format("svg");
   }
 
   @font-face {
-    font-family: 'Accent Graphic';
+    font-family: "Accent Graphic";
     font-weight: 700;
-    src: url('~/assets/fonts/AccenGraBol.otf'),
+    src: url("//db.onlinewebfonts.com/t/e1e8eb10aa15667715f7f8e0277f6ee5.eot");
+    src: url("//db.onlinewebfonts.com/t/e1e8eb10aa15667715f7f8e0277f6ee5.eot?#iefix")
+      format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e1e8eb10aa15667715f7f8e0277f6ee5.woff2")
+      format("woff2"), url("//db.onlinewebfonts.com/t/e1e8eb10aa15667715f7f8e0277f6ee5.woff")
+      format("woff"), url("//db.onlinewebfonts.com/t/e1e8eb10aa15667715f7f8e0277f6ee5.ttf")
+      format("truetype"), url("//db.onlinewebfonts.com/t/e1e8eb10aa15667715f7f8e0277f6ee5.svg#Accent Graphic")
+      format("svg");
   }
+
+  @font-face {
+      font-family: "Gotham";
+      font-weight: 300;
+      src: url("//db.onlinewebfonts.com/t/fc74760c72164d5321ac886797ce62eb.eot");
+      src: url("//db.onlinewebfonts.com/t/fc74760c72164d5321ac886797ce62eb.eot?#iefix")
+        format("embedded-opentype"), url("//db.onlinewebfonts.com/t/fc74760c72164d5321ac886797ce62eb.woff2")
+        format("woff2"),
+        url("//db.onlinewebfonts.com/t/fc74760c72164d5321ac886797ce62eb.woff")
+        format("woff"),
+        url("//db.onlinewebfonts.com/t/fc74760c72164d5321ac886797ce62eb.ttf")
+        format("truetype"),
+        url("//db.onlinewebfonts.com/t/fc74760c72164d5321ac886797ce62eb.svg#Gotham")
+        format("svg");
+    }
+
+  @font-face {
+    font-family: "Gotham";
+    font-weight: 500;
+    src: url("//db.onlinewebfonts.com/t/0ff8990774ec4865c7f45befbafd4910.eot");
+    src: url("//db.onlinewebfonts.com/t/0ff8990774ec4865c7f45befbafd4910.eot?#iefix")
+      format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/0ff8990774ec4865c7f45befbafd4910.woff2")
+      format("woff2"),
+      url("//db.onlinewebfonts.com/t/0ff8990774ec4865c7f45befbafd4910.woff")
+      format("woff"),
+      url("//db.onlinewebfonts.com/t/0ff8990774ec4865c7f45befbafd4910.ttf")
+      format("truetype"),
+      url("//db.onlinewebfonts.com/t/0ff8990774ec4865c7f45befbafd4910.svg#Gotham")
+      format("svg");
+  }
+
 
   body {
-    font-family: 'GT Walsheim';
+    font-family: 'Gotham';
     @apply bg-beige text-marcie;
   }
 
@@ -86,13 +88,17 @@
     @apply not-italic block;
   }
 
-  .fade-enter-active, .fade-leave-active {
-    @apply transition-all ease-in duration-100;
+  .fade-enter-active{
+    @apply transition-all ease-in duration-300;
   }
 
-  /* .fade-enter-to, .fade-leave {
+  .fade-leave-active {
+    @apply transition-all ease-in duration-0;
+  }
+
+  .fade-enter-to, .fade-leave {
     @apply opacity-100;
-  } */
+  }
 
   .fade-enter-from, .fade-leave-to {
     @apply opacity-0;

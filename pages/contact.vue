@@ -1,13 +1,5 @@
 <template>
   <content-wrapper title="Setzen Sie sich in Kontakt mit mir">
-    <transition
-      enter-active-class="duration-300 ease-out"
-      enter-from-class="transform opacity-0"
-      enter-to-class="opacity-100"
-      leave-active-class="duration-200 ease-in"
-      leave-from-class="opacity-100"
-      leave-to-class="transform opacity-0"
-    >
       <ul class="w-full">
         <li class="flex w-full items-center my-12">
           <img
@@ -38,9 +30,20 @@
           </address>
         </li>
       </ul>
-    </transition>
 
     <p>Ich freue mich blah blah</p>
 
   </content-wrapper>
 </template>
+
+<script setup>
+  useHead({
+    title: 'Contact',
+    meta: [
+      {
+        name: 'description',
+        content: 'Get in touch',
+      },
+    ],
+  })
+</script>

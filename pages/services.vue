@@ -11,3 +11,15 @@
     </ul>
   </content-wrapper>
 </template>
+
+<script setup>
+  useHead({
+    title: 'Services',
+    meta: [
+      {
+        name: 'description',
+        content: 'I provide a range of professional services',
+      },
+    ],
+  })
+</script>
