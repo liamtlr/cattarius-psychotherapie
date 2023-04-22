@@ -14,15 +14,13 @@
   </main>
 </template>
 
-<script>
-export default {
+<script setup>
 
-  props: {
-    title: {
-      type: String,
-      required: true,
-    },
-  },
+defineProps({
+  title: {
+    required: true,
+    type: String,
+  }
+})
 
-}
 </script>

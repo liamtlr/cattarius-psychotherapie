@@ -23,37 +23,30 @@
 </nav>
 </template>
 
-<script>
-export default {
+<script setup>
+import { useRoute } from 'vue-router'
 
-  data() {
-    return {
-      navItems: [
-        {
-          title: 'About',
-          to: '/about',
-          selected: false,
-        },
-        {
-          title: 'Services',
-          to: '/services',
-          selected: false,
-        },
-        {
-          title: 'Contact',
-          to: '/contact',
-          selected: false,
-        },
-      ]
-    }
-  },
-
-  methods: {
-    isSelected(to) {
-      return this.$route.name === to.slice(1)
-        ? ['text-marcie','underline', 'underline-offset-8']
-        : 'text-marcie-70'
+const navItems = [
+    {
+      title: 'About',
+      to: '/about',
+      selected: false,
     },
-  },
-}
+    {
+      title: 'Services',
+      to: '/services',
+      selected: false,
+    },
+    {
+      title: 'Contact',
+      to: '/contact',
+      selected: false,
+    },
+  ]
+  const isSelected = to => {
+    return useRoute().name === to.slice(1)
+      ? ['text-marcie','underline', 'underline-offset-8']
+      : 'text-marcie-70'
+  }
+
 </script>
