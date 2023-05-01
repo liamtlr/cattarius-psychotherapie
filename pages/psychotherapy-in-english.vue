@@ -1,5 +1,5 @@
 <template>
-  <content-wrapper title="Psychotherapt in English">
+  <content-wrapper title="Psychotherapy in English">
     <p>
       Having lived in the UK for many years, I also offer psychotherapy in English.
     </p>
