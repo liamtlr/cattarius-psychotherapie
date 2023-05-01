@@ -58,7 +58,7 @@
     meta: [
       {
         name: 'description',
-        content: 'Hallo ich bin Marcel - Psychotherapist aus Landau.',
+        content: 'Ablauf & kosten für Psychotherapie',
       },
     ],
   })
