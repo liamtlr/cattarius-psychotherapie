@@ -74,10 +74,31 @@
       format("svg");
   }
 
+  @font-face {
+      font-family: "Gotham";
+      font-weight: 700;
+      src: url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.eot");
+      src: url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.eot?#iefix")
+        format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.woff2")
+        format("woff2"),
+        url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.woff")
+        format("woff"),
+        url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.ttf")
+        format("truetype"),
+        url("//db.onlinewebfonts.com/t/db33e70bc9dee9fa9ae9737ad83d77ba.svg#Gotham")
+        format("svg");
+  }
+
 
   body {
     font-family: 'Gotham';
     @apply bg-beige text-marcie;
+  }
+
+  h2 {
+    @apply mb-2 mt-4 font-bold;
+
   }
 
   p {
