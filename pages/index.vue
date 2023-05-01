@@ -12,7 +12,7 @@
 
 <script setup>
   useHead({
-    title: 'Cattarius Psychotherapie',
+    title: 'Psychotherapie Cattarius ',
     meta: [
       {
         name: 'description',
