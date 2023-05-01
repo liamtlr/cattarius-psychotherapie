@@ -1,9 +1,11 @@
 <template>
-  <div class="h-screen py-8 px-4 md:px-24 lg:px-48">
+  <div class="flex flex-col h-screen py-8 px-4 md:px-24 lg:px-48">
     <navbar />
-    <div class="h-full">
+    <div class="h-screen flex flex-col justify-between">
       <slot />
+      <footer-items />
     </div>
+
   </div>
 </template>
 
@@ -24,6 +26,7 @@
   .fade-enter-from, .fade-leave-to {
     @apply opacity-0;
   }
+
 
 </style>
 
