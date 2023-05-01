@@ -28,18 +28,23 @@ import { useRoute } from 'vue-router'
 
 const navItems = [
     {
-      title: 'About',
-      to: '/about',
+      title: 'Psychotherapie',
+      to: '/psychotherapie',
       selected: false,
     },
     {
-      title: 'Services',
-      to: '/services',
+      title: 'Ablauf & Kosten',
+      to: '/ablauf',
       selected: false,
     },
     {
-      title: 'Contact',
-      to: '/contact',
+      title: 'Über mich',
+      to: '/uebermich',
+      selected: false,
+    },
+    {
+      title: 'Kontakt',
+      to: '/kontakt',
       selected: false,
     },
   ]
