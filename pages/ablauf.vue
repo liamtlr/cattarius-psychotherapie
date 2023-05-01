@@ -43,6 +43,8 @@
       Weitere Hinweise zum Kostenerstattungsverfahren finden Sie auf der
       <a
         href="https://www.dptv.de/fileadmin/Redaktion/Bilder_und_Dokumente/Wissensdatenbank_oeffentlich/Broschuere/DPtV-Faltblatt_Kosten.pdf"
+        class="hover:text-marcie-70 hover:cursor-pointer"
+        target="_"
       >
         Website der DPTV
       </a>

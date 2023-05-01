@@ -28,6 +28,8 @@
       Formalitäten, finden Sie in dieser
       <a
         href="https://www.wege-zur-psychotherapie.org/wp-content/uploads/2021/08/bptk_wege-zur-psychotherapie_2021.pdf"
+        class="hover:text-marcie-70 hover:cursor-pointer"
+        target="_"
       >
         Broschüre der Bundespsychotherapeutenkammer
       </a>.
