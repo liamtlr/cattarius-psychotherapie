@@ -14,18 +14,18 @@
       <img
         v-if="!navItemsVisible"
         src="~/assets/logos/bars.svg"
-        class="w-12 hover:text-marcie-70 hover:cursor-pointer lg:hidden"
+        class="w-12 hover:text-marcie-70 hover:cursor-pointer xl:hidden"
         @click="navItemsVisible = !navItemsVisible"
       >
       <img
         v-else
         src="~/assets/logos/x-mark.svg"
-        class="w-12 hover:text-marcie-70 hover:cursor-pointer lg:hidden"
+        class="w-12 hover:text-marcie-70 hover:cursor-pointer xl:hidden"
         @click="navItemsVisible = !navItemsVisible"
       >
       <ul
         class="
-          hidden space-x-8 lg:flex
+          hidden space-x-8 xl:flex
           text-2xl font-bold
         "
       >
@@ -47,7 +47,7 @@
     <transition name="fade">
       <ul
         class="
-          flex flex-col space-x-4 mt-8 lg:hidden
+          flex flex-col space-x-4 mt-8 xl:hidden
           text-2xl text-right font-bold
         "
         v-if="navItemsVisible"
