@@ -79,27 +79,32 @@ const navItemsVisible = ref(false)
 const navItems = [
     {
       title: 'Psychotherapie',
-      to: '/psychotherapie',
+      to: 'psychotherapie',
+      selected: false,
+    },
+    {
+      title: 'Psychotherapy in English',
+      to: 'psychotherapy-in-english',
       selected: false,
     },
     {
       title: 'Ablauf & Kosten',
-      to: '/ablauf',
+      to: 'ablauf',
       selected: false,
     },
     {
       title: 'Über mich',
-      to: '/uebermich',
+      to: 'uebermich',
       selected: false,
     },
     {
       title: 'Kontakt',
-      to: '/kontakt',
+      to: 'kontakt',
       selected: false,
     },
   ]
   const isSelected = to => {
-    return useRoute().name === to.slice(1)
+    return useRoute().name === to
       ? ['text-marcie','underline', 'underline-offset-8']
       : 'text-marcie-70'
   }
