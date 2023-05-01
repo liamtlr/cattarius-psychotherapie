@@ -16,7 +16,7 @@
     meta: [
       {
         name: 'description',
-        content: 'Experienced psychotherpaist based in Mainz',
+        content: 'Experienced psychotherapist based in Mainz',
       },
     ],
   })
