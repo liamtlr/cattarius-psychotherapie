@@ -24,11 +24,6 @@
       or criticisms, and together we can work towards understanding the
       situation and identifying the root of any difficulties.
     </p>
-    <p>
-      Ich lade Sie dazu ein, so zu erscheinen, wie Sie sind. Gemeinsam können
-      wir dann erarbeiten und verstehen, was in Ihnen vor sich geht und welchen
-      Ursprung ihre Probleme haben.
-    </p>
     <h2>Formalities</h2>
     <p>
       Before starting psychotherapy with me, it is important that we get to
