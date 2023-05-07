@@ -19,6 +19,7 @@ docker compose up
 4. Commit the changes
 
 ```
+git add .
 git commit -m "[a description of then changes you've made]"
 ```
 
