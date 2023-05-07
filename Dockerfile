@@ -12,6 +12,8 @@ COPY package.json yarn.lock ./
 RUN yarn install && \
     yarn cache clean
 
+# The below will run the server if commented out
 CMD ["npm", "run" , "dev"]
 
-# ENTRYPOINT /bin/bash
+# The below will generate a version of the code to host
+# CMD ["npm", "run" , "build"]
