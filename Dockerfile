@@ -16,4 +16,4 @@ RUN yarn install && \
 CMD ["npm", "run" , "dev"]
 
 # The below will generate a version of the code to host
-# CMD ["npm", "run" , "build"]
+# CMD ["npm", "run" , "generate"]
