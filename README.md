@@ -6,7 +6,14 @@
 git pull origin main
 ```
 
-2. Run the server
+2. Check out a new branch. This will store your changes in a way so that it
+does not effect the 'main' branch - so you can't mess things up
+
+```
+git checkout -b [name of feature/changes]
+```
+
+3. Run the server
 
 In command prompt, from the repo folder
 
@@ -14,20 +21,23 @@ In command prompt, from the repo folder
 docker compose up
 ```
 
-3. Make your changes
+4. Make your changes
 
-4. Commit the changes
+5. Commit the changes
 
 ```
-git add .
+git status  # lists out the files that have been changes
+git add [path to file you have changed]  # Only commit files you have changed
 git commit -m "[a description of then changes you've made]"
 ```
 
-5. Push the changes to GitHub
+6. Push the changes to GitHub
 
 ```
-git push origin main
+git push origin [name of branch]
 ```
+
+7. In GitHub open a [pull request](https://github.com/liamtlr/cattarius-psychotherapie/pulls)
 
 ------
 
