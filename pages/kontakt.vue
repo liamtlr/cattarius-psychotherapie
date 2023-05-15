@@ -14,8 +14,8 @@
             class="w-12 mr-20"
           >
           <a
-            href="mailto:info@pyschotherapiecattarius.de">
-            info@pyschotherapiecattarius.de
+            href="mailto:info@psychotherapiecattarius.de">
+            info@psychotherapiecattarius.de
           </a>
         </li>
         <li class="flex w-full items-center my-12">
