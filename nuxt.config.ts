@@ -22,7 +22,10 @@ export default defineNuxtConfig({
           content: 'width=device-width, initial-scale=1'
         },
         { name: 'charset', content: 'UTF-8' },
-      ]
+      ],
+      htmlAttrs: {
+        lang: 'de',
+      },
     }
   },
 
