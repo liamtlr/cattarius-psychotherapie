@@ -15,12 +15,14 @@
         v-if="!navItemsVisible"
         src="~/assets/logos/bars.svg"
         class="w-12 hover:text-marcie-70 hover:cursor-pointer xl:hidden"
+        alt="Three horizontal bars representing a hamburger menu"
         @click="navItemsVisible = !navItemsVisible"
       >
       <img
         v-else
         src="~/assets/logos/x-mark.svg"
         class="w-12 hover:text-marcie-70 hover:cursor-pointer xl:hidden"
+        alt="A cross symbol for closing the menu"
         @click="navItemsVisible = !navItemsVisible"
       >
       <ul

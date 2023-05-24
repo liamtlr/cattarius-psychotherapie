@@ -5,6 +5,7 @@
           <img
             src="~/assets/logos/contact/phone.svg"
             class="w-12 mr-20"
+            alt="Logo of a telephone"
           >
           <p>+49 (0) 6131 945 25 70</p>
         </li>
@@ -12,6 +13,7 @@
           <img
             src="~/assets/logos/contact/email.svg"
             class="w-12 mr-20"
+            alt="Logo of an envelope"
           >
           <a
             href="mailto:info@psychotherapiecattarius.de">
@@ -22,6 +24,7 @@
           <img
             src="~/assets/logos/contact/office.svg"
             class="w-12 mr-20"
+            alt="Logo of a office building"
           >
           <address>
             <p class="mb-0">Martinsstr. 17</p>
