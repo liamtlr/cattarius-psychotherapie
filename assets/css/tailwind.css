@@ -31,13 +31,13 @@
   @font-face {
     font-family: "Gotham";
     font-weight: 500;
-    src: url('~/assets/fonts/Gotham-Medium.otf');
+    src: url('~/assets/fonts/Gotham-Book.otf');
   }
 
   @font-face {
       font-family: "Gotham";
       font-weight: 700;
-      src: url('~/assets/fonts/Gotham-Bold.otf');
+      src: url('~/assets/fonts/Gotham-Medium.otf');
     }
 
 
