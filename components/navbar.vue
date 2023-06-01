@@ -33,7 +33,7 @@
       >
         <template v-for="item in navItems" :key="item.title">
           <li
-            class="hover:text-marcie cursor-pointer font-accent tracking-wide"
+            class="hover:text-marcie cursor-pointer font-accent tracking-wide group"
             :class="isSelected(item.to)"
           >
             <NuxtLink
@@ -41,6 +41,18 @@
               @click="navItemsVisible = false"
             >
               {{item.title}}
+              <ul v-if="item.subitems" class="absolute">
+                <li
+                  v-for="subitem in item.subitems"
+                  :key="subitem.title"
+                  class="invisible group-hover:visible my-4 text-base"
+                  :class="isSelected(subitem.to)"
+                >
+                  <NuxtLink :to="subitem.to">
+                    {{subitem.title}}
+                  </NuxtLink>
+                </li>
+              </ul>
             </NuxtLink>
           </li>
         </template>
@@ -56,14 +68,25 @@
       >
         <template v-for="item in navItems" :key="item.title">
           <li
-            class="hover:text-marcie cursor-pointer font-accent tracking-wide my-2"
-            :class="isSelected(item.to)"
+            class="text-marcie cursor-pointer font-accent tracking-wide my-2"
           >
             <NuxtLink
               :to="item.to"
               @click="navItemsVisible = false"
             >
-              {{item.title}}
+              <span :class="isSelected(item.to)">{{item.title}}</span>
+              <ul v-if="item.subitems">
+                <li
+                  v-for="subitem in item.subitems"
+                  :key="subitem.title"
+                  class="my-4 text-base"
+                  :class="isSelected(subitem.to)"
+                >
+                  <NuxtLink :to="subitem.to">
+                    {{subitem.title}}
+                  </NuxtLink>
+                </li>
+              </ul>
             </NuxtLink>
           </li>
         </template>
@@ -81,32 +104,47 @@ const navItemsVisible = ref(false)
 const navItems = [
     {
       title: 'Psychotherapie',
-      to: '/psychotherapie',
+      to: { name: 'psychotherapie' },
       selected: false,
+      subitems: [
+        {
+          title: 'Psychotherapy in English',
+          to: { name: 'psychotherapie-in-english' },
+        },
+        {
+          title: 'Ablauf & Kosten',
+          to: { name: 'psychotherapie-ablauf' },
+        },
+      ]
     },
     {
-      title: 'Psychotherapy in English',
-      to: '/psychotherapy-in-english',
+      title: 'Paartherapie',
+      to: { name: 'paartherapie' },
       selected: false,
-    },
-    {
-      title: 'Ablauf & Kosten',
-      to: '/ablauf',
-      selected: false,
+      subitems: [
+        {
+          title: 'Emotionsfokussierte Paartherapie',
+          to: { name: 'paartherapie-emotionsfokussiert' },
+        },
+        {
+          title: 'Ablauf & Kosten',
+          to: { name: 'paartherapie-ablauf' },
+        },
+      ]
     },
     {
       title: 'Über mich',
-      to: '/uebermich',
+      to: { name: 'uebermich' },
       selected: false,
     },
     {
       title: 'Kontakt',
-      to: '/kontakt',
+      to: { name: 'kontakt' },
       selected: false,
     },
   ]
   const isSelected = to => {
-    return useRoute().name === to
+    return useRoute().name === to.name
       ? ['text-marcie','underline', 'underline-offset-8']
       : 'text-marcie-70'
   }
