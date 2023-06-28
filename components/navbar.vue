@@ -45,7 +45,7 @@
                 <li
                   v-for="subitem in item.subitems"
                   :key="subitem.title"
-                  class="invisible py-4 text-base group-hover:visible hover:text-marcie"
+                  class="invisible py-1.5 text-base group-hover:visible hover:text-marcie"
                   :class="isSelected(subitem.to)"
                 >
                   <NuxtLink :to="subitem.to">
@@ -79,7 +79,7 @@
                 <li
                   v-for="subitem in item.subitems"
                   :key="subitem.title"
-                  class="py-4 text-base"
+                  class="py-2 text-base"
                   :class="isSelected(subitem.to)"
                 >
                   <NuxtLink :to="subitem.to">
