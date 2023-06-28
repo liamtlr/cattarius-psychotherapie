@@ -4,7 +4,7 @@
       <img
         src="~/assets/logos/vertical-with-text.png"
         class="w-5/6 md:max-w-screen-lg"
-        alt="Logo for Marcel Cattarius - Praxis für Psychotherapie"
+        alt="Psychotherapie Mainz"
       >
     </div>
   </div>
@@ -15,8 +15,8 @@
     title: 'Psychotherapie Cattarius ',
     meta: [
       {
-        name: 'description',
-        content: 'Experienced psychotherapist based in Mainz',
+        name: 'Psychotherapie Mainz',
+        content: 'Psychotherapie Mainz',
       },
     ],
   })

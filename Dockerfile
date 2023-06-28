@@ -8,12 +8,12 @@ ENV PORT 8080
 
 EXPOSE 8080
 
-COPY package.json yarn.lock ./
+COPY package.json ./
 RUN yarn install && \
     yarn cache clean
 
 # The below will run the server if commented out
-CMD ["npm", "run" , "dev"]
+#CMD ["npm", "run" , "dev"]
 
 # The below will generate a version of the code to host
-# CMD ["npm", "run" , "generate"]
+CMD ["npm", "run" , "generate"]

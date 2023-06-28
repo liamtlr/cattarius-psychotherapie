@@ -41,7 +41,7 @@
     meta: [
       {
         name: 'description',
-        content: 'Get in touch',
+        content: 'Kontaktdaten Psychotherapie Mainz',
       },
     ],
   })

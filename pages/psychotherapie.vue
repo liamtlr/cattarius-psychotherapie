@@ -19,8 +19,8 @@
       können.
     </p>
     <p>
-      Ich lade Sie dazu ein, so zu erscheinen, wie Sie sind. Gemeinsam können
-      wir dann erarbeiten und verstehen, was in Ihnen vor sich geht und welchen
+      Ich lade Sie dazu ein in meiner Praxis für Psychotherapie in Mainz, so zu erscheinen, wie Sie sind. 
+      Gemeinsam können wir dann erarbeiten und verstehen, was in Ihnen vor sich geht und welchen
       Ursprung ihre Probleme haben.
     </p>
     <p>
@@ -34,17 +34,17 @@
         Broschüre der Bundespsychotherapeutenkammer
       </a>.
     </p>
-
+  <h1 style='display: none;' class='page-title entry-title'>Psychotherapie in Mainz</h1>
   </content-wrapper>
 </template>
 
 <script setup>
   useHead({
-    title: 'Psychotherapie',
+    title: 'Psychotherapie in Mainz',
     meta: [
       {
-        name: 'description',
-        content: 'I provide a range of professional services',
+        name: 'Psychotherapie in Mainz',
+        content: 'tiefenpsychologisch fundierte Psychotherapie in Mainz',
       },
     ],
   })

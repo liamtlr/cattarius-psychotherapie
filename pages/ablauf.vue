@@ -1,5 +1,5 @@
 <template>
-  <content-wrapper title="Ablauf & Kosten">
+<content-wrapper title="Ablauf & Kosten">
     <p>
       Bevor eine Psychotherapie mit mir beginnt, ist es zunächst wichtig,
       dass wir uns in einem ersten Gespräch kennenlernen. Nach diesem Treffen
@@ -10,7 +10,7 @@
     </p>
     <p>
       Die Kosten für das Erstgespräch, die Probatorik und die
-      psychotherapeutischen Sitzungen richten sich für Selbstzahler und
+      psychotherapeutischen Sitzungen richten sich für Selbstzahler:innen und
       Privatversicherte nach der Gebührenordnung für Psychotherapeut:innen
       (GOP).
     </p>
@@ -54,11 +54,11 @@
 
 <script setup>
   useHead({
-    title: 'Ablauf & Kosten',
+    title: 'Ablauf & kosten für Psychotherapie in Mainz',
     meta: [
       {
-        name: 'description',
-        content: 'Ablauf & kosten für Psychotherapie',
+        name: 'Ablauf & kosten für Psychotherapie in Mainz',
+        content: 'Ablauf & kosten für Psychotherapie in Mainz',
       },
     ],
   })

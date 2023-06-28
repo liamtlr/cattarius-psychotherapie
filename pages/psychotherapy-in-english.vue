@@ -72,7 +72,7 @@
     meta: [
       {
         name: 'description',
-        content: 'Overview of psychotherapy services available in English',
+        content: 'English psychotherapy Mainz',
       },
     ],
   })

@@ -26,7 +26,7 @@
     <p>
       Zu diesem Zweck, aber auch zur Vernetzung und dem Verfolgen
       berufspolitischer & persönlicher Interessen bin ich Mitglied in der
-      Deutsche Psychotherapeuten Vereinigung, in der Deutschen Gesellschaft
+      Deutschen Psychotherapeuten Vereinigung, in der Deutschen Gesellschaft
       für Psychoanalyse, Psychotherapie, Psychosomatik und Tiefenpsychologie
       sowie im Verband für lesbische, schwule, bisexuelle, trans*,
       intersexuelle und queere Menschen in der Psychologie.
@@ -40,7 +40,7 @@
     meta: [
       {
         name: 'description',
-        content: 'Hallo ich bin Marcel - Psychotherapist aus Landau.',
+        content: 'Psychotherapeut Mainz',
       },
     ],
   })
