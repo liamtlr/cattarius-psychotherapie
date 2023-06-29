@@ -5,7 +5,7 @@
           <img
             src="~/assets/logos/contact/phone.svg"
             class="w-12 mr-20"
-            alt="Logo of a telephone"
+            alt="Therapie Mainz"
           >
           <p>+49 (0) 6131 945 25 70</p>
         </li>
@@ -13,7 +13,7 @@
           <img
             src="~/assets/logos/contact/email.svg"
             class="w-12 mr-20"
-            alt="Logo of an envelope"
+            alt="Psychologe Mainz"
           >
           <a
             href="mailto:info@psychotherapiecattarius.de">
@@ -24,7 +24,7 @@
           <img
             src="~/assets/logos/contact/office.svg"
             class="w-12 mr-20"
-            alt="Logo of a office building"
+            alt="Cattarius Psychotherapie Mainz"
           >
           <address>
             <p class="mb-0">Martinsstr. 17</p>

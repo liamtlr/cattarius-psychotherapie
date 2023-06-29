@@ -8,21 +8,21 @@
         <img src=
           "~/assets/logos/no-text.png"
           class="h-12 mr-8 md:h-24 cursor-pointer"
-          alt="Nav icon for Marcel Cattarius - Praxis für Psychotherapie"
+          alt="Psychotherapie Mainz"
         >
       </NuxtLink>
       <img
         v-if="!navItemsVisible"
         src="~/assets/logos/bars.svg"
         class="w-12 hover:text-marcie-70 hover:cursor-pointer xl:hidden"
-        alt="Three horizontal bars representing a hamburger menu"
+        alt="Paartherapie Mainz"
         @click="navItemsVisible = !navItemsVisible"
       >
       <img
         v-else
         src="~/assets/logos/x-mark.svg"
         class="w-12 hover:text-marcie-70 hover:cursor-pointer xl:hidden"
-        alt="A cross symbol for closing the menu"
+        alt="Gruppentherapie Mainz"
         @click="navItemsVisible = !navItemsVisible"
       >
       <ul
