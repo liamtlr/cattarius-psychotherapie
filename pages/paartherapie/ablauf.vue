@@ -1,53 +1,19 @@
 <template>
   <content-wrapper title="Ablauf & Kosten">
     <p>
-      Bevor eine Psychotherapie mit mir beginnt, ist es zunächst wichtig,
-      dass wir uns in einem ersten Gespräch kennenlernen. Nach diesem Treffen
-      folgen weitere Sitzungen, die als probatorische Sitzungen bezeichnet
-      werden. Diese haben mehrere Funktionen, wie die Feststellung, ob eine
-      Psychotherapie für Sie geeignet ist, und bieten Ihnen die Gelegenheit,
-      eine vertrauensvolle Therapiebeziehung zu mir aufzubauen.
+      Der erste Schritt ist ein Kennenlerngespräch, das für 50 Minuten vereinbart werden kann. 
+      In diesem Gespräch haben Sie die Möglichkeit, Ihre Anliegen zu besprechen und sich gegenseitig kennenzulernen. 
+      Der Preis für das Kennenlerngespräch beträgt 110€.
     </p>
     <p>
-      Die Kosten für das Erstgespräch, die Probatorik und die
-      psychotherapeutischen Sitzungen richten sich für Selbstzahler und
-      Privatversicherte nach der Gebührenordnung für Psychotherapeut:innen
-      (GOP).
-    </p>
-    <h2>Bei privater Krankenversicherung</h2>
-    <p>
-      In der Regel werden das erste Gespräch und die darauffolgenden fünf
-      Sitzungen (auch als Probesitzungen bezeichnet) von Ihrer Versicherung
-      erstattet. Falls bei Ihnen eine psychische Diagnose vorliegt,
-      übernehmen die Krankenkassen normalerweise die Kosten für eine
-      Psychotherapie.
+      Die regulären Paartherapie-Sitzungen haben eine Dauer von 90 Minuten und kosten 180€ pro Sitzung. 
+      In diesen Sitzungen biete ich Ihnen einen sicheren Raum, um Ihre Beziehungsdynamik zu erkunden und gemeinsam Lösungen zu entwickeln. 
+      Meine paartherapeutische Arbeit basiert auf den Konzepten der Emotionsfokussierten Paartherapie sowie auf psychodynamischen Ansätzen.
     </p>
     <p>
-      Es ist wichtig, dass Sie zu Beginn der Therapie mit Ihrer privaten
-      Krankenversicherung klären, ob und in welchem Umfang die Psychotherapie
-      abgedeckt ist.
-    </p>
-    <h2>Bei gesetzlicher Krankenversicherung</h2>
-    <p>
-      In meiner Privatpraxis ist es mir leider nicht möglich, direkt mit den
-      gesetzlichen Krankenversicherungen abzurechnen.
-    </p>
-    <p>
-      Um in meiner Praxis eine Kostenübernahme durch Ihre Krankenkasse zu
-      erhalten, müssen Sie nachweisen, dass Sie keinen freien Behandlungsplatz
-      in einer Praxis mit Kassenzulassung erhalten haben. Bitte wenden Sie sich
-      an Ihre Krankenkasse, um Informationen darüber zu erhalten, ob und wie
-      eine Kostenerstattung möglich ist.
-    </p>
-    <p>
-      Weitere Hinweise zum Kostenerstattungsverfahren finden Sie auf der
-      <a
-        href="https://www.dptv.de/fileadmin/Redaktion/Bilder_und_Dokumente/Wissensdatenbank_oeffentlich/Broschuere/DPtV-Faltblatt_Kosten.pdf"
-        class="hover:text-marcie-70 hover:cursor-pointer"
-        target="_"
-      >
-        Website der DPTV
-      </a>
+      Bitte beachten Sie, dass die genannten Preise allgemeiner Natur sind und auf Ihre individuellen Bedürfnisse angepasst werden können.
+      Bitte beachten Sie jedoch, dass die Kosten für eine Paartherapie nicht von der Krankenkasse übernommen werden. 
+      Für weitere Informationen und zur Terminvereinbarung stehe ich Ihnen gerne zur Verfügung.
     </p>
   </content-wrapper>
 </template>
