@@ -27,7 +27,7 @@
             alt="Cattarius Psychotherapie Mainz"
           >
           <address>
-            <p class="mb-0">Martinsstr. 17</p>
+            <p class="mb-0">Kaiserstr. 42</p>
             <p class="mb-0">55116 Mainz</p>
           </address>
         </li>
