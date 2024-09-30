@@ -5,10 +5,10 @@
       Staatsvertrag (RSTV)<br>
       Name und Anschrift des Psychotherapeuten<br>
       M.Sc. Marcel Cattarius - Praxis für Psychotherapie<br>
-      Martinsstraße 17<br>
+      Kaiserstr. 42<br>
       55116 Mainz<br>
-      Telefon: +49 6131 – 945 25 70<br>
-      E-Mail: info[at]psychotherapiecattarius.de<br>
+      Telefon: +49 6131 – 218 94 29<br>
+      E-Mail: info@psychotherapiecattarius.de<br>
       Internet:
       <a href="https://www.psychotherapiecattarius.de">
         www.psychotherapiecattarius.de
@@ -35,10 +35,10 @@
       Angaben zum Diensteanbieter (verantwortlich im Sinne des mediendienste
       Staatsvertrages, §6, Abs. 2)<br>
       Marcel Cattarius<br>
-      Martinsstraße 17<br>
+      Kaiserstr. 42<br>
       55116 Mainz<br>
-      Telefon: +49 6131 – 945 25 70<br>
-      E-Mail: info[at]psychotherapiecattarius.de<br>
+      Telefon: +49 6131 – 218 94 29<br>
+      E-Mail: info@psychotherapiecattarius.de<br>
       Internet: www.psychotherapiecattarius.de<br>
     </p>
     <p>
