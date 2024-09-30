@@ -1,5 +1,7 @@
 # Instructions for marcie <3
 
+## Making changes 
+
 1. Pull the repo
 
 ```
@@ -38,6 +40,20 @@ git push origin [name of branch]
 ```
 
 7. In GitHub open a [pull request](https://github.com/liamtlr/cattarius-psychotherapie/pulls)
+
+
+## Deploying changes
+
+1. If you haven't already, open up the repo as a codespace
+2. In the Dockerfile, ensure the CMD section to run the server in uncommented
+3. In the command line, run `docker compose build`
+4. Then run `docker compose up`
+5. Once completed, you should be able to run the site by entering http://localhost:8080/ into a browser
+6. Check everything is working as expected
+7. When you're happy, build the site. Switch over the Dockerfile to generate a version of the code to host
+8. Run `docker compose build`, then `docker compose up` again
+9. Check there are no errors, if so contact Liam xxx
+10. Otherwise, the hostable version will be in the /.output/public folder. Upload the contents to the FTP
 
 ------
 
