@@ -7,7 +7,7 @@
         :key="item.title"
         class="cursor-pointer font-accent tracking-wide my-4"
       >
-        <NuxtLink :to="item.to">
+        <NuxtLink :to="{ name: item.to }">
           {{ item.title }}
         </NuxtLink>
       </li>
