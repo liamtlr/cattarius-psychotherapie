@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:18
 
 SHELL [ "bash", "-xc" ]
 
@@ -13,7 +13,7 @@ RUN yarn install && \
     yarn cache clean
 
 # The below will run the server if commented out
-#CMD ["npm", "run" , "dev"]
+CMD ["npm", "run" , "dev"]
 
 # The below will generate a version of the code to host
-CMD ["npm", "run" , "generate"]
+# CMD ["npm", "run" , "generate"]
