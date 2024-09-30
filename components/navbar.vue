@@ -118,21 +118,6 @@ const navItems = [
       ]
     },
     {
-      title: 'Paartherapie',
-      to: { name: 'paartherapie' },
-      selected: false,
-      subitems: [
-        {
-          title: 'Emotionsfokussierte Paartherapie',
-          to: { name: 'paartherapie-emotionsfokussiert' },
-        },
-        {
-          title: 'Ablauf & Kosten',
-          to: { name: 'paartherapie-ablauf' },
-        },
-      ]
-    },
-    {
       title: 'Über mich',
       to: { name: 'uebermich' },
       selected: false,
