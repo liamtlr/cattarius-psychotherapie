@@ -41,6 +41,7 @@
               @click="navItemsVisible = false"
             >
               {{item.title}}
+            </NuxtLink>
               <ul v-if="item.subitems" class="absolute">
                 <li
                   v-for="subitem in item.subitems"
@@ -53,7 +54,6 @@
                   </NuxtLink>
                 </li>
               </ul>
-            </NuxtLink>
           </li>
         </template>
       </ul>
