@@ -7,7 +7,7 @@
             class="w-12 mr-20"
             alt="Therapie Mainz"
           >
-          <p>+49 (0) 6131 945 25 70</p>
+          <p>+49 (0) 6131 218 94 29</p>
         </li>
         <li class="flex w-full items-center my-12">
           <img

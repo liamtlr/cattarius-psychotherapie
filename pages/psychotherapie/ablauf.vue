@@ -1,5 +1,5 @@
 <template>
-<content-wrapper title="Ablauf & Kosten">
+  <content-wrapper title="Ablauf & Kosten">
     <p>
       Bevor eine Psychotherapie mit mir beginnt, ist es zunächst wichtig,
       dass wir uns in einem ersten Gespräch kennenlernen. Nach diesem Treffen
@@ -12,7 +12,8 @@
       Die Kosten für das Erstgespräch, die Probatorik und die
       psychotherapeutischen Sitzungen richten sich für Selbstzahler:innen und
       Privatversicherte nach der Gebührenordnung für Psychotherapeut:innen
-      (GOP).
+      (GOP). Gesetzlich Krankenversicherte können ohne Überweisung einen Termin bei mir vereinbaren, 
+      die Kosten trägt die gesetzliche Krankenversicherung. 
     </p>
     <h2>Bei privater Krankenversicherung</h2>
     <p>
@@ -29,25 +30,8 @@
     </p>
     <h2>Bei gesetzlicher Krankenversicherung</h2>
     <p>
-      In meiner Privatpraxis ist es mir leider nicht möglich, direkt mit den
-      gesetzlichen Krankenversicherungen abzurechnen.
-    </p>
-    <p>
-      Um in meiner Praxis eine Kostenübernahme durch Ihre Krankenkasse zu
-      erhalten, müssen Sie nachweisen, dass Sie keinen freien Behandlungsplatz
-      in einer Praxis mit Kassenzulassung erhalten haben. Bitte wenden Sie sich
-      an Ihre Krankenkasse, um Informationen darüber zu erhalten, ob und wie
-      eine Kostenerstattung möglich ist.
-    </p>
-    <p>
-      Weitere Hinweise zum Kostenerstattungsverfahren finden Sie auf der
-      <a
-        href="https://www.dptv.de/fileadmin/Redaktion/Bilder_und_Dokumente/Wissensdatenbank_oeffentlich/Broschuere/DPtV-Faltblatt_Kosten.pdf"
-        class="hover:text-marcie-70 hover:cursor-pointer"
-        target="_"
-      >
-        Website der DPTV
-      </a>
+      In meiner Praxis ist es mir möglich, mit der gesetzlichen Krankenversicherung abzurechnen. 
+      Denken Sie bitte daran zum Erstgespräch Ihre Versichertenkarte mitzubringen.
     </p>
   </content-wrapper>
 </template>

@@ -46,6 +46,7 @@ git push origin [name of branch]
 
 1. If you haven't already, open up the repo as a codespace
 2. In the Dockerfile, ensure the CMD section to run the server in uncommented
+- type "q" if there is no console
 3. In the command line, run `docker compose build`
 4. Then run `docker compose up`
 5. Once completed, you should be able to run the site by entering http://localhost:8080/ into a browser
